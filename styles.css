@@ -58,8 +58,8 @@ body {
     url("img/IMG_6364.JPG");
     background-size: cover;
     background-position: center center;
-    max-width: 100%;
-    min-height: 800px;
+    width: 100%;
+    max-height: 800px;
     margin-top: -40px;
     width:100%;
 }
@@ -75,7 +75,8 @@ body {
 }
 
 .innerAboutMe .name {
-    font-size: 90px;
+    font-size:6.5em;
+    /*font-size: 90px;*/
     line-height: 90%;
     position: relative;
 }
@@ -120,19 +121,7 @@ body {
     width: 80%;
     color: #3D3535;
     font-family: 'Roboto Condensed', sans-serif;
-    /*font-family: 'Oswald', sans-serif;*/
     margin-bottom: 20px;
-}
-
-@media only screen and (max-width: 767px) {
-    #resume {
-        max-height: 500px;
-        overflow-y: scroll;
-        width: 98%;
-    }
-    ::-webkit-scrollbar {
-        display: none;
-    }
 }
 
 #resume h1 {
@@ -258,7 +247,6 @@ body {
     min-width: 500px;
     padding: 40px;
     color:black;
-    /*text-shadow: 1px 1px 0px rgb(58, 58, 94);*/
     background-color: rgba(255, 255, 255, 0.2);
     margin: auto;
     overflow: hidden;
@@ -508,8 +496,7 @@ h3 {
 /*==========================================================================END OF WIKIPAGE==================================================================================================*/
 /*===========================================================================DOG PEN PAGE=========================================================================================*/
 #dogPen {
-    /*background: url('https://source.unsplash.com/Ys85uMksDHc');*/
-    /*position: relative;*/
+   background-color:pink;
     background-size: cover;
     margin: 0px;
     min-height: 100%;
